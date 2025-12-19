@@ -80,3 +80,29 @@ border-radius: 15px; /* soft rounded edges */
 .content-block p {
 padding: 1rem; /* adds breathing space around text */
 }
+
+Britannia Mitchell <mitchellbritannia0@gmail.com>
+12:54 (0 minutes ago)
+to me
+
+.bottom-links {
+display: flex; /* arrange links side by side */
+justify-content: center; /* center horizontally */
+gap: 2rem; /* space between each link */
+margin-top: 4rem; /* space above the links */
+margin-bottom: 4rem; /* space below the links */
+flex-wrap: wrap; /* wrap on smaller screens */
+}
+
+.bottom-links a {
+padding: 1rem 2rem; /* extra clickable area */
+font-size: 1.1rem;
+border-radius: 15px;
+text-align: center;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bottom-links a:hover {
+transform: translateY(-5px) scale(1.05);
+box-shadow: 0 20px 50px rgba(255,79,163,0.4);
+}
