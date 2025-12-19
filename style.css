@@ -130,4 +130,10 @@ transition: all 0.3s ease;
 letter-spacing: 1px;
 border-bottom-color: #ff4fa3;
 }
+a.final-project-link {
+color: #e3ddff;
+font-weight: bold;
+text-decoration: underline;
+}
+
 
